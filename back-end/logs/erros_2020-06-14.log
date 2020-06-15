@@ -1,0 +1,94 @@
+{"message":"DATA: 14-06-2020 02:39:13 | STATUS: 500 | CODIGO: 6BFC2818-BFCF-45BA-AF94-D25CE347B342 | ERRO: Neo4jError: The old parameter syntax `{param}` is no longer supported. Please use `$param` instead (line 1, column 22 (offset: 21))\n\"CREATE (c:Client{id: {id}, name: {name},\"\n                      ^","level":"error"}
+{"message":"DATA: 14-06-2020 02:41:15 | STATUS: 500 | CODIGO: 983F7737-FF96-482E-9239-23DC48687D69 | ERRO: Neo4jError: Expected parameter(s): id","level":"error"}
+{"message":"DATA: 14-06-2020 02:43:09 | STATUS: 500 | CODIGO: 262FB5AD-EB23-4497-88D9-97DDADFACA3F | ERRO: Neo4jError: Property values can only be of primitive types or arrays thereof","level":"error"}
+{"message":"DATA: 14-06-2020 04:23:53 | STATUS: 500 | CODIGO: 360F2AD7-8CD1-41D3-A82C-B308767B0015 | ERRO: Neo4jError: This record has no field with key 'Id', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:25:32 | STATUS: 500 | CODIGO: 0B5DC4ED-FD71-4F15-A36F-0167BD8B831A | ERRO: Neo4jError: This record has no field with key 'Id', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:27:43 | STATUS: 500 | CODIGO: FA9B08D3-5070-43D1-9722-9BB3866BA2F8 | ERRO: Neo4jError: This record has no field with key 'Id', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:28:04 | STATUS: 500 | CODIGO: B7F653B2-66F5-4425-A5AE-2E52582FF8D5 | ERRO: Neo4jError: This record has no field with key 'Id', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:29:21 | STATUS: 500 | CODIGO: 2D645898-E0DA-4A71-887C-3C59C95E47E9 | ERRO: Neo4jError: This record has no field with key 'Id', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:29:58 | STATUS: 500 | CODIGO: 992713BC-4687-42AD-91C0-6B9EC5DF66F1 | ERRO: Neo4jError: This record has no field with key 'Id', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:33:38 | STATUS: 500 | CODIGO: BD4BD02E-83F2-4C58-B74C-028317D38784 | ERRO: TypeError: Cannot read property 'properties' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 04:36:51 | STATUS: 500 | CODIGO: 199AC4B5-B827-4DBD-ADC4-BE6979C0229C | ERRO: TypeError: Cannot read property 'properties' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 04:38:23 | STATUS: 500 | CODIGO: 92E4C18B-9181-48BD-BCB6-1AA4D1A80B5C | ERRO: Neo4jError: This record has no field with key 'properties', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:39:02 | STATUS: 500 | CODIGO: 7D4FB9CB-F208-401C-99EB-75B1917CCEA0 | ERRO: Neo4jError: This record has no field with key '_fields', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:39:21 | STATUS: 500 | CODIGO: 49EA9A27-3160-4D50-AEE4-3661778F122E | ERRO: Neo4jError: This record has no field with key '_fields', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:39:37 | STATUS: 500 | CODIGO: 7CB75785-EC73-49C5-856C-59F88FF6800A | ERRO: Neo4jError: This record has no field with key '_fields', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 04:39:52 | STATUS: 500 | CODIGO: 6676D542-B623-498B-B082-2991915A54AA | ERRO: Neo4jError: This record has no field with key 'Record', available key are: [n].","level":"error"}
+{"message":"DATA: 14-06-2020 05:00:24 | STATUS: 500 | CODIGO: 5205C63D-2D52-4507-B491-ABFB32C2E5D3 | ERRO: Neo4jError: This record has no field with key 'Id', available key are: [clients.Id,clients.Name,clients.Birthday,clients.Email,clients.IsActive,clients.CreatedAt].","level":"error"}
+{"message":"DATA: 14-06-2020 05:33:00 | STATUS: 500 | CODIGO: 1103F2B5-33B0-40F8-AFDD-549584491C46 | ERRO: Neo4jError: Invalid input '.': expected 'o/O', 'r/R' or 'a/A' (line 3, column 10 (offset: 112))\n\"        c.IsActive = $IsActive, c.UpdateAt = $UpdatedAt\"\n          ^","level":"error"}
+{"message":"DATA: 14-06-2020 05:34:07 | STATUS: 500 | CODIGO: 0482A443-246F-4588-8CC4-A4C7D0B92D19 | ERRO: Neo4jError: Invalid input '.': expected 'o/O', 'r/R' or 'a/A' (line 2, column 29 (offset: 62))\n\"        SET c.Name = $Name c.Birthday = $Birthday c.Email = $Email\"\n                             ^","level":"error"}
+{"message":"DATA: 14-06-2020 07:31:41 | STATUS: 500 | CODIGO: DB7C0740-1E4A-482B-9068-AFF7DFF55480 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:33:55 | STATUS: 500 | CODIGO: AAEAC21B-542C-422B-8832-FF5195D110F8 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:34:13 | STATUS: 500 | CODIGO: BF2849D4-F9BA-4F92-97F6-F3772AFC8263 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:34:38 | STATUS: 500 | CODIGO: C21716D6-7FD9-485A-B2FA-1D77ED338E94 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:35:21 | STATUS: 500 | CODIGO: 3CA370E7-1EDA-49DF-B863-BCE601FD79B2 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:35:49 | STATUS: 500 | CODIGO: D5307F46-96ED-4B18-AFE0-4DDAA225A83F | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:36:39 | STATUS: 500 | CODIGO: 46282F9F-28D2-4374-8BEB-E5E9AD3C5FC1 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:37:02 | STATUS: 500 | CODIGO: 5B225DA6-D25B-4229-BBB4-5E88336109CF | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:38:20 | STATUS: 500 | CODIGO: 51F2BAFB-BAE6-4148-80FA-B042BBDDAA2D | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:40:43 | STATUS: 500 | CODIGO: AE883D60-937B-4178-9098-D0B4DB16FA69 | ERRO: EvalError: [object Object]","level":"error"}
+{"message":"DATA: 14-06-2020 07:44:23 | STATUS: 500 | CODIGO: 92495D82-C7B3-42FE-B420-4E222D906B80 | ERRO: EvalError: [object Object]","level":"error"}
+{"message":"DATA: 14-06-2020 07:44:55 | STATUS: 500 | CODIGO: 492D6625-8554-493E-BD78-52C8B343F61A | ERRO: EvalError: [object Object]","level":"error"}
+{"message":"DATA: 14-06-2020 07:45:43 | STATUS: 500 | CODIGO: 4BA9DDDA-77E4-4451-B819-81D5BC4B272F | ERRO: EvalError: Desconhecido","level":"error"}
+{"message":"DATA: 14-06-2020 07:46:12 | STATUS: 500 | CODIGO: 06111A5C-364F-4B99-8258-EBD4242148BD | ERRO: EvalError: Desconhecido","level":"error"}
+{"message":"DATA: 14-06-2020 07:47:22 | STATUS: 500 | CODIGO: 5741C138-6706-462F-9109-0033A699F490 | ERRO: EvalError: Desconhecido","level":"error"}
+{"message":"DATA: 14-06-2020 07:48:36 | STATUS: 500 | CODIGO: 8DF94618-B1BF-449E-8739-9F38782E87D8 | ERRO: EvalError: Desconhecido","level":"error"}
+{"message":"DATA: 14-06-2020 07:49:06 | STATUS: 500 | CODIGO: 5D497F75-B64F-42D6-83BA-FE3AC9A19314 | ERRO: EvalError: Desconhecido","level":"error"}
+{"message":"DATA: 14-06-2020 07:49:21 | STATUS: 500 | CODIGO: 484BA189-FE62-4FE8-9E47-067E33A5A034 | ERRO: EvalError: Desconhecido","level":"error"}
+{"message":"DATA: 14-06-2020 07:49:36 | STATUS: 500 | CODIGO: 6B309661-77B0-4DB8-B83E-E549750E8B7C | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 07:52:11 | STATUS: 500 | CODIGO: FF34D93E-E42A-46E4-9B61-9D4E61017904 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 08:06:58 | STATUS: 500 | CODIGO: E2B1B321-9787-4022-BC65-E8F0E082A40C | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 08:23:04 | STATUS: 500 | CODIGO: D3DC2F34-40E7-4C5C-A950-D31E900730F9 | ERRO: TypeError: Class constructor Routes cannot be invoked without 'new'","level":"error"}
+{"message":"DATA: 14-06-2020 09:09:52 | STATUS: 500 | CODIGO: 0C65C35C-9399-4B30-BE5E-CDC17C5EE92D | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:11:26 | STATUS: 500 | CODIGO: BF9A1D72-DD1E-4221-9AE0-4F4E015EBB2A | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:12:36 | STATUS: 500 | CODIGO: F07EB694-8C1A-484B-944E-B5430B584E86 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:14:51 | STATUS: 500 | CODIGO: DB4CA828-9F53-44A2-A777-B9F1D1FD5D16 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:16:17 | STATUS: 500 | CODIGO: 98A6E2D7-9242-49F0-80EB-0CF6A7ED5321 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:18:12 | STATUS: 500 | CODIGO: 0080234D-97B2-4ACD-80F7-E4DCE09AD090 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:23:13 | STATUS: 500 | CODIGO: 2A1EA7C2-2B72-44DE-96FF-DE7B348A6BA9 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:23:44 | STATUS: 500 | CODIGO: 7E670E8C-27D4-4958-ADEE-B7E81C3D44E8 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:24:55 | STATUS: 500 | CODIGO: 1AA716B2-1103-4439-802A-02B2B8E7322F | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:25:31 | STATUS: 500 | CODIGO: 68AEFB73-4295-43B5-B292-C5AB63EA14E9 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:25:52 | STATUS: 500 | CODIGO: 7B3DDDA4-D454-4D5B-AB8C-7BAF981A330B | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:26:43 | STATUS: 500 | CODIGO: 3A21DB0A-C677-4B2C-B2D2-69D429CDF16C | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:27:13 | STATUS: 500 | CODIGO: D9645FA1-C15B-4D1B-B0D1-F33E9A1F8A1F | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:27:24 | STATUS: 500 | CODIGO: 472E1AE5-6889-4143-9975-AE5E5858FFBD | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:27:43 | STATUS: 500 | CODIGO: 6D49D149-45E7-4503-967C-D166792A52A8 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:28:07 | STATUS: 500 | CODIGO: 8ADA25A9-33C9-479E-A232-CA2EED8A27DF | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:29:04 | STATUS: 500 | CODIGO: 3D74EBAE-373C-4BCF-9112-64763515FCDC | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:29:29 | STATUS: 500 | CODIGO: 204B1ADB-45BE-415F-A162-AE07E255CED6 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:31:10 | STATUS: 500 | CODIGO: C30C25A3-3EB9-4B2C-BA62-77023B10599B | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:34:45 | STATUS: 500 | CODIGO: 78A9A877-259A-426F-825E-611322D14873 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:36:34 | STATUS: 500 | CODIGO: 0831CA80-8EF0-4B51-9264-462CCE4C3FB3 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:37:17 | STATUS: 500 | CODIGO: 743E4E77-4E26-4555-BC41-37AD5A3AF924 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:37:58 | STATUS: 500 | CODIGO: 41C608C4-9A6A-42A7-A4A0-2C409C4DD5AB | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:41:33 | STATUS: 500 | CODIGO: 4E51F64C-E4D0-4A53-B2F5-465640BA913C | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:41:57 | STATUS: 500 | CODIGO: DA2DD363-2F89-456F-B627-4005CC18A5B0 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:42:57 | STATUS: 500 | CODIGO: D321A579-7B2B-47D9-87CC-E43B35FC8922 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:48:16 | STATUS: 500 | CODIGO: 2ED2C33F-96E9-4F60-9685-17394BFA6A1F | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:49:00 | STATUS: 500 | CODIGO: A0EF9BEA-4267-47B0-A429-03089ED32BDE | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 09:49:22 | STATUS: 500 | CODIGO: 4D13852B-0D43-4FE7-AEEF-E4BC91FB9803 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 17:09:34 | STATUS: 500 | CODIGO: 1F57E9F6-F077-42AF-A006-392D20E98F92 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 17:43:43 | STATUS: 500 | CODIGO: 17F9C3F1-E593-4C16-85C2-66C5728090D2 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 17:45:59 | STATUS: 500 | CODIGO: 5E8FDE07-CF04-40F8-8FB8-9C64BC910AAB | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 17:49:14 | STATUS: 500 | CODIGO: 2E562B54-5110-4F4D-9208-7E110A2AF259 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 17:49:19 | STATUS: 500 | CODIGO: BF240C0C-753B-4108-AE19-2507AB65F09F | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 17:49:30 | STATUS: 500 | CODIGO: FD8446F0-E710-48BA-AD8E-7D67600AA76F | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 17:53:03 | STATUS: 500 | CODIGO: 3787EA3F-7BE4-483A-8970-F33C6E04548A | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 18:09:26 | STATUS: 500 | CODIGO: 98612B32-7F13-4083-A490-779027FFC01E | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 18:13:28 | STATUS: 500 | CODIGO: 8D115D7C-CA98-41B2-B3EA-BB8103AA85FB | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 18:14:19 | STATUS: 500 | CODIGO: CA5C2644-14A1-46F9-A9B8-A7E75946E60D | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 18:18:01 | STATUS: 500 | CODIGO: 358CFAA3-E3CB-4FE4-BCAE-22A97458972B | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 18:20:54 | STATUS: 500 | CODIGO: AE63301C-88C0-4CC9-849C-5E88FAD65F1C | ERRO: TypeError: this.getAllHandler.Handle is not a function","level":"error"}
+{"message":"DATA: 14-06-2020 18:21:30 | STATUS: 500 | CODIGO: B9CC4608-7D23-4D4F-8EE5-EA9E2A38EFD0 | ERRO: TypeError: this.getAllHandler.Handle is not a function","level":"error"}
+{"message":"DATA: 14-06-2020 18:22:00 | STATUS: 500 | CODIGO: D1879374-A0AB-4608-A212-EAC4CC39D220 | ERRO: TypeError: Cannot read property 'Handle' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 18:22:40 | STATUS: 500 | CODIGO: B59BAED7-2456-4F09-8165-86805F1BAEEB | ERRO: TypeError: this.getAllHandler is not a function","level":"error"}
+{"message":"DATA: 14-06-2020 18:24:34 | STATUS: 500 | CODIGO: CF19AA9B-15D7-4081-9906-AB4DA4008419 | ERRO: TypeError: this.getAllHandler is not a function","level":"error"}
+{"message":"DATA: 14-06-2020 18:44:08 | STATUS: 500 | CODIGO: 9AE2CD8B-FCB6-4FA0-919A-578B072ADD63 | ERRO: Neo4jError: Cannot run query in a closed session.","level":"error"}
+{"message":"DATA: 14-06-2020 18:44:27 | STATUS: 500 | CODIGO: EA0D224E-D262-4CC6-B1BD-3BBEB12158CB | ERRO: Neo4jError: Cannot run query in a closed session.","level":"error"}
+{"message":"DATA: 14-06-2020 18:45:21 | STATUS: 500 | CODIGO: 44601539-3DBF-4B06-859B-2C18999D4118 | ERRO: Neo4jError: Cannot run query in a closed session.","level":"error"}
+{"message":"DATA: 14-06-2020 18:50:20 | STATUS: 500 | CODIGO: FD107C94-DA00-42D7-9808-11E5C8DEB115 | ERRO: TypeError: Cannot read property 'toLocaleUpperCase' of undefined","level":"error"}
+{"message":"DATA: 14-06-2020 18:55:08 | STATUS: 500 | CODIGO: 34AEEC28-BE24-455C-B335-468026306F25 | ERRO: Neo4jError: This record has no field with key 'Id', available key are: [c].","level":"error"}
+{"message":"DATA: 14-06-2020 18:57:48 | STATUS: 500 | CODIGO: 46DC2935-B808-4633-836A-F258EC0FC162 | ERRO: Neo4jError: This record has no field with key 'Id', available key are: [c].","level":"error"}
+{"message":"DATA: 14-06-2020 19:04:09 | STATUS: 500 | CODIGO: 82E7BBDD-E049-49DE-91C8-1CF5A93E01AA | ERRO: SyntaxError: Unexpected token b in JSON at position 4","level":"error"}
+{"message":"DATA: 14-06-2020 19:04:28 | STATUS: 500 | CODIGO: FAAC69CD-90EF-4428-8988-C15DA61CA34F | ERRO: SyntaxError: Unexpected token o in JSON at position 1","level":"error"}

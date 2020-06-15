@@ -1,0 +1,5 @@
+{"message":"DATA: 15-06-2020 03:07:04 | STATUS: 500 | CODIGO: 2D2BD636-17C8-42C9-A6A9-D5061B03DBEA | ERRO: Neo4jError: Expected parameter(s): Email","level":"error"}
+{"message":"DATA: 15-06-2020 03:10:01 | STATUS: 500 | CODIGO: 84FDA480-0B64-483D-AC64-18E8F02FFC50 | ERRO: Neo4jError: Expected parameter(s): Id, Name, Birthday, Email, IsActive, CreatedAt","level":"error"}
+{"message":"DATA: 15-06-2020 03:10:57 | STATUS: 500 | CODIGO: 49ACE405-A7B0-44DC-A5CB-A54883EA06EB | ERRO: Neo4jError: Expected parameter(s): Id, Name, Birthday, Email, IsActive, CreatedAt","level":"error"}
+{"message":"DATA: 15-06-2020 03:15:22 | STATUS: 500 | CODIGO: D9846211-4A86-47B2-AD68-BA9F3326A409 | ERRO: Neo4jError: This record has no field with key 'id', available key are: [Id,name,birthday,email,isActive,createdAt,updatedAt].","level":"error"}
+{"message":"DATA: 15-06-2020 03:17:31 | STATUS: 500 | CODIGO: 828C5B5D-3963-4682-AEA2-964F562D480B | ERRO: TypeError: Cannot read property 'toLocaleUpperCase' of null","level":"error"}
