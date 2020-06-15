@@ -51,7 +51,6 @@
     "moment": "^2.26.0",
     "morgan": "^1.10.0",
     "neo4j-driver": "^4.0.0-rc1",
-    "swagger-ui-express": "^4.1.4",
     "uuid": "^8.1.0",
     "winston": "^3.2.1"
   }

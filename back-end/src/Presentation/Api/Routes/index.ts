@@ -22,9 +22,7 @@ export default class Routes {
 
   private LoadingDocumentationRoute() {
     this.routes.get(`/`, (req, res, next) => {
-      process.env.NODE_ENV === "development"
-        ? res.redirect(`${process.env.DOC_VERSION}/api-docs`)
-        : res.json({ status: 200, error: false, message: "API is Running!" });
+      return res.json({ status: 200, error: false, message: "API is Running!" });
     })
   }
 
