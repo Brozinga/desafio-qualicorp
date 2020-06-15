@@ -25,15 +25,15 @@ Caso você queira executar em modo de produção porém com código typescript:
 * **OBSERVAÇÕES:**
 Para alterar informações da API, basta usar os arquivos de Variáveis de Ambiente, o arquivo está na pasta '\src\Environment'
 
-> PORT = Porta da API
-> CLUSTER_ENABLED = Habilita o uso de multi-processadores
-> NUMBER_CPU_CORES = Numero de CPUs usados ('0' usa todos os disponíveis na máquina)
-> MORGAN_ENABLED = Habilita o log no console para as requisições HTTP (pesa deixar ligado, então pra PROD é melhor desligado)
-> NEO4J_PROTOCOL = Protocolo do NE04J
-> NEO4J_HOST = Ip do banco de dados
-> NEO4J_USERNAME = Usuário do banco de dados
-> NEO4J_PASSWORD = Senha do usuário do banco de dados
-> NEO4J_PORT = Porta do banco de dados
+* > PORT = Porta da API
+* > CLUSTER_ENABLED = Habilita o uso de multi-processadores
+* > NUMBER_CPU_CORES = Numero de CPUs usados ('0' usa todos os disponíveis na máquina)
+* > MORGAN_ENABLED = Habilita o log no console para as requisições HTTP (pesa deixar ligado, então pra PROD é melhor desligado)
+* > NEO4J_PROTOCOL = Protocolo do NE04J
+* > NEO4J_HOST = Ip do banco de dados
+* > NEO4J_USERNAME = Usuário do banco de dados
+* > NEO4J_PASSWORD = Senha do usuário do banco de dados
+* > NEO4J_PORT = Porta do banco de dados
 
 Para acessar os status da API acesse a rota [http://localhost:3333/status](http://localhost:3333/status)
 
