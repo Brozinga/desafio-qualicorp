@@ -17,7 +17,7 @@ export default class ClientRepository implements IClientRepository {
     }
 
 
-    async GetAll(): Promise<QueryResult> {
+    async GetAll(): Promise<any> {
         let query = `MATCH (c:Client) 
         RETURN c.id as id, c.name as name, c.birthday as birthday, 
         c.email as email, c.isActive as isActive, c.createdAt as createdAt, 
@@ -27,7 +27,7 @@ export default class ClientRepository implements IClientRepository {
         return result;
     }
 
-    async GetById(id: string): Promise<QueryResult> {
+    async GetById(id: string): Promise<any> {
         let query = `MATCH (c:Client) WHERE c.id = $id
         RETURN c.id as id, c.name as name, c.birthday as birthday, 
         c.email as email, c.isActive as isActive, c.createdAt as createdAt, 
@@ -39,7 +39,7 @@ export default class ClientRepository implements IClientRepository {
 
     }
 
-    async Insert(client: Client): Promise<QueryResult> {
+    async Insert(client: Client): Promise<any> {
         let query = `CREATE (c:Client{id: $id, name: $name, 
             birthday: $birthday, email: $email, 
             isActive: $isActive, createdAt: $createdAt})  
@@ -53,7 +53,7 @@ export default class ClientRepository implements IClientRepository {
         return result;
     }
 
-    async Put(client: Client): Promise<QueryResult> {
+    async Put(client: Client): Promise<any> {
         let query = `MATCH (c:Client) WHERE c.id = $id
         SET c.name = $name, c.birthday = $birthday, c.email = $email,
         c.isActive = $isActive, c.updatedAt = $updatedAt
@@ -67,7 +67,7 @@ export default class ClientRepository implements IClientRepository {
         return result;
     }
 
-    async Delete(id: string): Promise<QueryResult> {
+    async Delete(id: string): Promise<any> {
 
         let query = `MATCH (c:Client) WHERE c.id = $id DELETE c`
         let result = await this.db.run(query, { id });
@@ -75,7 +75,7 @@ export default class ClientRepository implements IClientRepository {
         return result;
     }
 
-    async Where(propertyName: string, propertyValue: string): Promise<QueryResult> {
+    async Where(propertyName: string, propertyValue: string): Promise<any> {
         let query = `MATCH (c:Client) WHERE c.${propertyName} = $${propertyName}
         RETURN c.id as id, c.name as name, c.birthday as birthday, 
         c.email as email, c.isActive as isActive, c.createdAt as createdAt, 

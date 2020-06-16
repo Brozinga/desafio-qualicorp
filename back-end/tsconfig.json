@@ -3,7 +3,7 @@
     "target": "es5",
     "lib": ["es6"],
     "module": "commonjs",
-    "types": ["reflect-metadata"],
+    "types": ["reflect-metadata", "jest", "node"],
     "moduleResolution": "node",
     "allowJs": true,
     "outDir": "./dist",
@@ -12,5 +12,10 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts",
+    ""
+  ]
 }

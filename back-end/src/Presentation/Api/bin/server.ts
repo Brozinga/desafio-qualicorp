@@ -6,8 +6,6 @@ import express from "express";
 import cors from "cors";
 import helmet from "helmet";
 import compression from "compression";
-import statusMonitor from "express-status-monitor";
-import swaggerUi from "swagger-ui-express";
 import swaggerDocument from "../Documentation/swagger";
 
 import { GlobalErrorHandler } from "../Middlewares/GlobalErrorHandler";
@@ -39,7 +37,6 @@ class Server {
     }
 
     private LoadingMiddleware() {
-        this.app.use(statusMonitor());
         this.app.use(compression());
         this.app.use(helmet());
         this.app.use(express.urlencoded({ extended: false }));

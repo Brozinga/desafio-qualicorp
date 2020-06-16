@@ -7,14 +7,20 @@ Projeto onde foi pedido um CRUD simples, para avaliar, o meu código.
 * Usando como base Domain Driven Design e SOLID.
 * Domain Notifications
 * Foi usado Typescript para o código.
+* Testes Unitários com Jest.
 * Implementado log de erros (exceptions)
-* Express Status Monitor (Acompanhar o status da API uso de memória, uso de CPU, etc).
 * Modulo Cluster (Usa todas as CPUs da máquina para maior performance).
   
 #### Como usar? 
 
 Faça o download, entre na pasta back-end e instale as dependências:
 `yarn install` ou `npm install`
+
+Você pode colocar dados na base através do comando:
+`yarn seed` ou `npm run seed`
+
+Você pode executar os testes unitários e ver o resultado através do comando:
+`yarn test` ou `npm run test`
 
 Você pode dar o start em modo de desenvolvimento através do commando:
 `yarn dev:serve` ou `npm run dev:serve`
@@ -41,9 +47,7 @@ Para acessar os status da API acesse a rota [http://localhost:3333/status](http:
 
 Você pode alterar o arquivo de Environment descrito acima e colocar o seu banco de dados.
 
-Como alternativa você pode usar Docker com o `docker-compose` que está na pasta:
-
-- \database
+Como alternativa você pode usar Docker com o `docker-compose` que está na pasta '\database'
 
 Para iniciar o banco em Docker, entre na pasta database execute o comando:
 `docker-compose up`

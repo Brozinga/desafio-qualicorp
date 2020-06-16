@@ -20,7 +20,7 @@ export default class GetClientByIdHandler implements IHandler {
 
     async Handle(request: any): Promise<IHttpResponse> {
         
-        if (Guid.isGuid(`"${request.id}"`))
+        if (!Guid.isGuid(request.id))
             return new BasicResponse(false, new CustomNotification("Id", "Id is invalid"), 400);
 
         const client = ClientMapper(await this.repository.GetById(request.id));
